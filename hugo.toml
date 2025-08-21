@@ -1,0 +1,78 @@
+title = '九师傅的 TRPG 小站'
+baseURL = 'https://trpgblog.rhinonine.site/'
+languageCode = 'en-us'
+enableEmoji = true
+ignoreErrors = ["additional-script-loading-error"] 
+
+[module]
+  [[module.imports]]
+    path = "github.com/hugo-sid/hugo-blog-awesome"
+    # disable = true
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-J0PQS7E9QS' 
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+	[markup.tableOfContents]
+		startLevel = 2 # ToC starts from H2
+		endLevel = 4 # ToC ends at H4
+		ordered = false # generates <ul> instead of <ol>
+
+[menu]
+  [[menu.main]] 
+    pageRef="characters"
+    name = '角色'
+    url = '/characters/'
+    weight = 10
+  [[menu.main]]
+    pageRef="resources"
+    name = '资源'
+    url = '/resources/'
+    weight = 20 
+  [[menu.main]]
+    pageRef="logs"
+    name = '日志'
+    url = '/logs/'
+    weight = 30
+  [[menu.main]]
+    pageRef="about"
+    name = '关于'
+    url = '/about/'
+    weight = 40
+  [[menu.main]]
+    pageRef="categories"
+    name = '分类'
+    url = '/categories/'
+    weight = 50
+  [[menu.main]]
+    pageRef="tags"
+    name = '标签'
+    url = '/tags/'
+    weight = 60
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[params]
+  sitename = "sitename"
+  defaultColor = "dark" 
+  description = "要做海鸥，要除刁民"
+
+[params.author]
+  avatar = "avatar.png"
+  intro = "The Universe in a Dice"
+  name = "Rhino Nine"
+  description = "Another Day Another Roll"
+
+[[params.socialIcons]]
+name = "Github"
+url = "https://github.com/Rhino-Nine"
+
+[[params.socialIcons]]
+name = "Rss"
+url = "/index.xml"
