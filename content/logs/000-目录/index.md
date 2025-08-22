@@ -37,7 +37,7 @@ categories = ['日志']
 | :--- | :--- | :--- | :--- |
 | 侠界      侠义出手                | 咕咕                  | 华风 | \ |
 | DND5th    复仇之潮                | 咕咕；珀西；烨夜；    | 阿斯特·金；坷萝；约克·斯通 | 20241028—20241110 |
-| DND5th    星界冒险序章            | 咕咕                  |  |  |
+| DND5th    星界冒险序章            | 咕咕                  | 因勒维与赫尔普  | 20250501 |
 ## 坠毁
 
 |<div style="width:100px;"> 规则-模组 </dev> | <div style="width:100px;"> GM </dev> | <div style="width:100px;"> PC</dev> | <div style="width:100px;"> 结团时间</dev> |
